@@ -6,5 +6,6 @@ def nosotros(request):
     return HttpResponse("Página sobre nosotros")
 def contacto(request):
     return HttpResponse("Página de contacto")
-
+def nombre(request):
+    return HttpResponse("Hola, mi nombre es Sebastián Erodio Sánchez Núñez")
 # Create your views here.
